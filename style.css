@@ -1,0 +1,119 @@
+/* Base styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  scroll-behavior: smooth;
+  background: #ffffff;
+  color: #333;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Lock screen styles */
+.lock-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #005baa;
+  color: white;
+}
+
+.lock-container {
+  background: #ffffff;
+  color: #005baa;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 300px;
+}
+
+.lock-container h1 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.lock-container input {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.lock-container button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #005baa;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.lock-container button:hover {
+  background-color: #003f7f;
+}
+
+/* Main Site Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Header */
+.header {
+  background-color: #005baa;
+  color: white;
+  padding: 100px 20px;
+}
+
+.header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.header .tagline {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.scroll-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #ffffff;
+  color: #005baa;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.scroll-link:hover {
+  background-color: #005baa;
+  color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  background-color: #003f7f;
+  color: white;
+  padding: 20px;
+}

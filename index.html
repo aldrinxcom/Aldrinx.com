@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Access Required</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="lock-screen">
+
+  <div class="lock-container fade-in">
+    <h1>Enter access code to continue</h1>
+    <input type="password" id="codeInput" placeholder="6-digit code">
+    <button onclick="checkCode()">Enter</button>
+    <p id="error" style="color:red; display:none;">Incorrect code. Please try again.</p>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
