@@ -20,57 +20,7 @@ body, html {
   }
 }
 
-/* Lock screen styles */
-.lock-screen {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #005baa;
-  color: white;
-}
-
-.lock-container {
-  background: #ffffff;
-  color: #005baa;
-  padding: 40px 30px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  text-align: center;
-  width: 300px;
-}
-
-.lock-container h1 {
-  margin-bottom: 20px;
-  font-size: 22px;
-}
-
-.lock-container input {
-  padding: 10px;
-  font-size: 16px;
-  margin-top: 10px;
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.lock-container button {
-  padding: 10px 20px;
-  margin-top: 15px;
-  background-color: #005baa;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  width: 100%;
-  font-size: 16px;
-}
-
-.lock-container button:hover {
-  background-color: #003f7f;
-}
-
-/* Main Site Container */
+/* Container */
 .container {
   width: 90%;
   max-width: 1200px;
@@ -92,9 +42,18 @@ body, html {
 
 .header .tagline {
   font-size: 22px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
+.intro {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Scroll Links */
 .scroll-link {
   display: inline-block;
   margin-top: 20px;
@@ -109,6 +68,23 @@ body, html {
 .scroll-link:hover {
   background-color: #005baa;
   color: #ffffff;
+}
+
+/* About Section */
+.about-section {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* Footer */
